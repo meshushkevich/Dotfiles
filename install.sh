@@ -28,5 +28,6 @@ cargo install comtrya
 ~/.cargo/bin/comtrya -d ./manifests apply
 
 # reboot
-sudo reboot
+# for now, rebooting is manually process
+# sudo reboot
 
