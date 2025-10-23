@@ -1,0 +1,14 @@
+actions:
+  - action: package.install
+    provider: paru
+    name: networkmanager
+
+  - action: command.run
+    command: systemctl
+    args: ["enable", "NetworkManager"]
+    privileged: true
+
+  - action: command.run
+    command: systemctl
+    args: ["start", "NetworkManager"]
+    privileged: true

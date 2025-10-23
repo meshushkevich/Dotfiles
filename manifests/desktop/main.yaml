@@ -1,0 +1,7 @@
+depends:
+  - desktop.file_manager
+  - desktop.program_launcher
+  - desktop.waybar
+  - desktop.wallpaper
+  - desktop.cliphist
+  - desktop.nwg_displays

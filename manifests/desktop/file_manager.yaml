@@ -1,0 +1,17 @@
+actions:
+  - action: package.install
+    provider: paru
+    list:
+      - dolphin
+      - dolphin-plugins
+      - kio-admin
+      - kompare
+      - ffmpegthumbs
+      - icoutils
+      - kdegraphics-thumbnailers
+      - kdesdk-thumbnailers
+      - libappimage
+      - qt6-imageformats
+      - raw-thumbnailer
+      - resvg
+      - taglib

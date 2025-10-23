@@ -1,0 +1,2 @@
+depends:
+  - network.network_manager

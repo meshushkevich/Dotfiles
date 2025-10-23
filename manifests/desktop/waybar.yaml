@@ -1,0 +1,14 @@
+depends:
+  - network
+  - bluetooth
+  - desktop.brightnessctl
+  - desktop.pavucontrol
+
+actions:
+  - action: package.install
+    provider: paru
+    name: waybar
+
+  - action: directory.copy
+    from: waybar
+    to: "{{ user.config_dir }}/waybar"

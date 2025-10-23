@@ -1,0 +1,6 @@
+depends:
+  - utils.drawing
+  - utils.obsidian
+  - utils.steam
+  - utils.telegram
+  - utils.vpn
