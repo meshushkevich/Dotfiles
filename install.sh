@@ -22,6 +22,7 @@ makepkg -si
 cd ..
 
 # Install comtrya
+echo "Running comtrya to load manifests. Please, take a while"
 cargo install comtrya
 
 # Run comtrya
