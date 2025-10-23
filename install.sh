@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # Update sudo timeout
-sudo echo "Defaults passwd_timeout=20" >> /etc/sudoers.d/passwd_timeout
+echo "Defaults passwd_timeout=20" >> passwd_timeout
+sudo mv passwd_timeout /etc/sudoers.d/passwd_timeout
 
 # Configure pacman
 sudo mv /etc/pacman.conf /etc/pacman.conf.bak
@@ -24,7 +25,7 @@ rustup default stable
 cargo install comtrya
 
 # Run comtrya
-~/.cargo/bin/comtrya -d ./manifests apply -m entrypoint.yaml
+~/.cargo/bin/comtrya -d ./manifests apply
 
 # reboot
 sudo reboot
