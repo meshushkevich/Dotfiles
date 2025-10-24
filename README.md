@@ -14,3 +14,15 @@ cd Dotfiles
 ```sh
 install.sh
 ```
+
+
+# TODO
+
+- [ ] Themes manager
+- [ ] Improve waybar
+- [ ] Improve InternetConnection manager
+- [ ] Fix bluetooth manager
+- [ ] themes + SDDM  + wallpaper engine
+- [ ] zsh config
+- [ ] pretty fast fetch
+

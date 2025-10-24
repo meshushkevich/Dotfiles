@@ -1,5 +1,0 @@
-depends:
-  - programming.code_editor
-  - programming.python_tools
-  - programming.nvim
-  - programming.zsh

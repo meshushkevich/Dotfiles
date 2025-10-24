@@ -1,0 +1,3 @@
+depends:
+  - programming.editor
+  - programming.python

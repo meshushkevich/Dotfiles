@@ -18,10 +18,10 @@ makepkg -si
 cd ..
 
 # Install comtrya
-echo "Running comtrya to load manifests. Please, take a while"
 cargo install comtrya
 
 # Run comtrya
+echo "Running comtrya to load manifests. Please, take a while"
 ~/.cargo/bin/comtrya -v -d ./manifests apply -m client.desktop
 
 # reboot

@@ -1,7 +1,0 @@
-depends:
-  - hypr
-  - bluetooth
-  - network
-  - programming
-  - utils
-
