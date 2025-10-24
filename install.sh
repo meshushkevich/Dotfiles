@@ -1,9 +1,5 @@
 #!/bin/bash
 
-# Update sudo timeout
-echo "Defaults passwd_timeout=20" >> passwd_timeout
-sudo mv passwd_timeout /etc/sudoers.d/passwd_timeout
-
 # Configure pacman
 sudo mv /etc/pacman.conf /etc/pacman.conf.bak
 sudo cp ./pacman/pacman.conf /etc/pacman.conf
@@ -26,9 +22,7 @@ echo "Running comtrya to load manifests. Please, take a while"
 cargo install comtrya
 
 # Run comtrya
-~/.cargo/bin/comtrya -d ./manifests apply
+~/.cargo/bin/comtrya -v -d ./manifests apply -m client.desktop
 
 # reboot
-# for now, rebooting is manually process
-# sudo reboot
-
+reboot
