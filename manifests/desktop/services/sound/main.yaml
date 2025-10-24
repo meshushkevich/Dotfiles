@@ -1,4 +1,5 @@
 actions:
   - action: package.install
     provider: paru
-    name: pavucontrol
+    list:
+      - pavucontrol
