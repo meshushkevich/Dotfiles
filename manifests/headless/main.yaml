@@ -1,0 +1,3 @@
+depends:
+  - headless.nvim
+  - headless.shell

@@ -1,7 +1,15 @@
-depends:
-  - desktop.file_manager
-  - desktop.program_launcher
-  - desktop.waybar
-  - desktop.wallpaper
-  - desktop.cliphist
-  - desktop.nwg_displays
+actions:
+  - action: package.install
+    provider: paru
+    name: waybar
+
+  - action: directory.copy
+    from: waybar
+    to: "{{ user.config_dir }}"
+
+  - action: package.install
+    provider: paru
+    list:
+      - hyprpaper
+      - waypaper
+

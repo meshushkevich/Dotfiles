@@ -1,0 +1,5 @@
+depends:
+  - desktop.services.bluetooth
+  - desktop.services.brightnessctl
+  - desktop.services.network
+  - desktop.services.sound

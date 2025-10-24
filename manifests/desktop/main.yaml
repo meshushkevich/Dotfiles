@@ -1,0 +1,7 @@
+depends:
+  - desktop.display
+  - desktop.hypr
+  - desktop.programming
+  - desktop.rice
+  - desktop.services
+  - desktop.utils

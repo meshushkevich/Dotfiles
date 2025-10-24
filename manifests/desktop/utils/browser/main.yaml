@@ -1,0 +1,9 @@
+actions:
+  - action: package.install
+    provider: paru
+    name: firefox-nightly-bin
+
+  - action: command.run
+    command: echo
+    args:
+      - Browser installed

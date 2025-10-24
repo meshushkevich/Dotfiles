@@ -2,7 +2,7 @@
 
 # Configure pacman
 sudo mv /etc/pacman.conf /etc/pacman.conf.bak
-sudo cp ./pacman/pacman.conf /etc/pacman.conf
+sudo cp ./preconfigs/pacman/pacman.conf /etc/pacman.conf
 
 # Update system
 sudo pacman -Suy
@@ -13,7 +13,7 @@ rustup default stable
 
 # Install AUR helper (paru)
 git clone https://aur.archlinux.org/paru-bin.git
-cd paru
+cd paru-bin
 makepkg -si
 cd ..
 

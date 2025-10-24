@@ -7,7 +7,7 @@ actions:
   # Copy other configs
   - action: directory.copy
     from: configs
-    to: "{{ user.config_dir }}/hypr/configs"
+    to: "{{ user.config_dir }}/hypr"
 
   # Create backup
   - action: file.copy

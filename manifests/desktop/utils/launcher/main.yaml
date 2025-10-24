@@ -2,5 +2,5 @@ actions:
   - action: package.install
     provider: paru
     list:
-      - hyprpaper
-      - waypaper
+      - elephant-bin
+      - walker-bin
