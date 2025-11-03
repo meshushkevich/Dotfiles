@@ -7,3 +7,8 @@ actions:
     info: Adding symlink to zsh config
     src: "./files/.zshrc"
     dst: "{{ user.home }}/.zshrc"
+
+  - procedure: shell.run
+    info: "Changing shell for user"
+    command: chsh
+    args: ["-s", "zsh"]
