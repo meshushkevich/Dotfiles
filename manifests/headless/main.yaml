@@ -1,3 +1,9 @@
 depends:
-  - headless.nvim
-  - headless.shell
+  - pacman
+  - git
+  - rustup
+  - paru
+  - fastfetch
+  - nvim
+  - zsh
+  - python

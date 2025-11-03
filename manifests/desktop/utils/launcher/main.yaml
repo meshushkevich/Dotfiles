@@ -1,5 +1,0 @@
-actions:
-  - action: package.install
-    provider: paru
-    list:
-      - fuzzel

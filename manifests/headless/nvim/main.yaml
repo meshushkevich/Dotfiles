@@ -1,4 +1,4 @@
 actions:
-  - action: package.install
-    provider: paru
-    name: neovim
+  - procedure: paru.install
+    info: Installing nvim
+    package: ["nvim"]

@@ -1,5 +1,6 @@
 depends:
-  - desktop.services.bluetooth
-  - desktop.services.brightnessctl
-  - desktop.services.network
-  - desktop.services.sound
+  - bluetooth.yaml
+  - network.yaml
+  - brightnessctl.yaml
+  - sound.yaml
+  - vpn.yaml

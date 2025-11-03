@@ -1,7 +1,14 @@
 depends:
-  - desktop.display
-  - desktop.hypr
-  - desktop.programming
-  - desktop.rice
-  - desktop.services
-  - desktop.utils
+  - services
+  - zed
+  - waybar
+  - dolphin
+  - cliphist
+  - firefox
+  - fuzzel
+  - nwg-displays
+  - obs
+  - steam
+  - waypaper
+  - hyprland
+  - telegram

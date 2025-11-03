@@ -1,5 +1,0 @@
-depends:
-  - desktop.utils.clipboard
-  - desktop.utils.file_manager
-  - desktop.utils.launcher
-  - desktop.utils.browser

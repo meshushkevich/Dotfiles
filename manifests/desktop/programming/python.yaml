@@ -1,7 +1,0 @@
-actions:
-  - action: package.install
-    provider: paru
-    list:
-      - uv
-      - ruff
-      - ty
