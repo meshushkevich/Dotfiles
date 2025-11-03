@@ -1,5 +1,15 @@
 actions:
   - procedure: os.symlink
-    info: "Applying symlinks for hyprland config"
-    src: "./files/hypr"
-    dst: "{{ user.config }}"
+    info: "Adding symlink for hypr configs"
+    src: "./files/hypr/configs"
+    dst: "{{ user.config }}/hypr/configs"
+
+  - procedure: os.symlink
+    info: "Adding symlink for monitor.conf"
+    src: "./files/hypr/monitors.conf"
+    dst: "{{ user.config }}/hypr/monitors.conf"
+
+  - procedure: os.symlink
+    info: "Adding symlink for hyprland.conf"
+    src: "./files/hypr/hyprland.conf"
+    dst: "{{ user.config }}/hypr/hyprland.conf"
